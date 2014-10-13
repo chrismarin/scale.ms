@@ -1,0 +1,121 @@
+header a {
+color: black;
+opacity: 1;
+text-decoration: none;
+
+}
+
+header {
+	color:black;
+
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+background-image:url(../images/grass.jpg);
+	background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color: #333
+}
+
+header h3 { 
+  font-family: 'Open Sans', sans-serif;
+
+color:#653492;
+}
+
+header h1 { 
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 40px;
+}
+
+.text-vcenter h1 {
+font-size: 3.5em;
+font-weight: 700;
+margin-top: -320px;
+padding: 40px;
+}
+
+#subheader {
+margin-top: -30px;
+}
+
+.kambucha {
+  margin-top:-500px;
+}
+
+.container .jumbotron {
+border-radius: 6px;
+background-color: transparent;
+}}
+
+.boom {
+    opacity: 0.4;
+}
+
+.h1 {
+  font:Open+Sans, arial;
+}
+
+}
+#footer {
+position:fixed;
+bottom:0;
+
+}
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -30px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 60px;
+}
+#footer {
+  background-color: #eee;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.center {
+float: none;
+.center-block();
+}

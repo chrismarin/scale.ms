@@ -1,0 +1,59 @@
+header {
+	background-image:url(../images/estate.jpg);
+	background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.0em;
+  font-weight: 700;
+  margin: 0;
+  padding: 00px;
+}
+
+p {
+color: #555;
+font-size: 1.3em;
+}
+
+// Classes
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Usage as mixins
+.element {
+  .center-block();
+}
+
+.faceboook {
+	margin-left:68px;
+}
